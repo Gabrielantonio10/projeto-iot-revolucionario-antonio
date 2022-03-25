@@ -1,22 +1,31 @@
 body {
     margin: 0px 0px 0px 0px;
     font-family: monospace;
+    background-color: black;
 }
 
 .header {
-    background-color: black;
     width: 100%;
-    border-bottom: 3px blue solid;
+    height: 100px;
+    border-bottom: 3px #32b9cd solid;
+    align-items: center;
 }
 
-h1 {
+.titulo {
     margin: 0;
-    color: blue;
+    color: #32b9cd;
+}
+
+.container {
+     width: 80%;
+     margin: auto;
+     display: flex;
 }
 
 .header .container {
-    width: 70%;
-    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
 }
 
 .navbar {
@@ -26,4 +35,52 @@ h1 {
     justify-content: space-between;
     color: orange;
     display: flex;
+    padding: 0%;
+}
+
+p {
+    color: white;
+}
+
+/* Começo banner */
+
+.banner {
+    height: 500px;
+    background-image: url("Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.banner .card {
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e75459;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+input {
+    height: 30px;
+    border: 2px solid #e75459;
+    border-radius: 4px;
+}
+
+.banner .card {
+    color: #e75459;
 }
