@@ -52,7 +52,7 @@ p {
 
 .banner .card {
     background-color: beige;
-    height: 450px;
+    height: 650px;
     width: 400px;
     display: flex;
     flex-direction: column;
